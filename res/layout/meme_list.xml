@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".ListActivity" >
+
+    <ListView
+        android:id="@+id/memeList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:divider="@drawable/divider"
+        android:dividerHeight="2dp"
+        android:scrollbarStyle="insideOverlay" >
+
+    </ListView>
+
+</RelativeLayout>

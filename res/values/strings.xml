@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Memesify</string>
+    <string name="action_settings">Settings</string>
+    <string name="test">Text Goes Here</string>
+    <string name="title_activity_details">Create your Meme!</string>
+    <string name="bottom_hint">Enter bottom line here</string>
+    <string name="top_hint">Enter top line here</string>
+    <string name="save_button_text">Save</string>
+    <string name="search_title">e.g. Am I the only one</string>
+    <string name="share_title">Share</string>
+
+</resources>
