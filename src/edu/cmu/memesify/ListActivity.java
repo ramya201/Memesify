@@ -57,20 +57,6 @@ public class ListActivity extends BaseActivity {
 
 			@Override
 			public boolean onQueryTextSubmit(String query) {
-				ArrayList<String> sub_meme_titles = new ArrayList<String>();
-				ArrayList<Bitmap> sub_meme_pics = new ArrayList<Bitmap>();
-				ArrayList<String> sub_default_top_text = new ArrayList<String>();
-	
-					for (int i=0;i<meme_titles.size();i++)
-					{
-						String title = meme_titles.get(i);
-						if (title.equalsIgnoreCase(query.trim()))
-						{
-							sub_meme_titles.add(title);
-							sub_meme_pics.add(meme_pics.get(i));
-							sub_default_top_text.add(defaultTopText.get(i));
-						}
-					}
 				
 				return true;		        
 			}

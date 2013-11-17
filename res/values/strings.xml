@@ -10,5 +10,14 @@
     <string name="save_button_text">Save</string>
     <string name="search_title">e.g. Am I the only one</string>
     <string name="share_title">Share</string>
+    <string name="title">Choose from popular memes</string>
+    
+    <string-array name="colors_array">
+        <item>WHITE</item>
+        <item>BLACK</item>
+        <item>RED</item>
+        <item>BLUE</item>
+        <item>GREEN</item>        
+    </string-array>
 
 </resources>
